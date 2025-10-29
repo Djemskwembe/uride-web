@@ -1,3 +1,21 @@
+export default function Home() {
+  return (
+    <main style={{ 
+      textAlign: "center", 
+      marginTop: "100px", 
+      fontFamily: "sans-serif" 
+    }}>
+      <h1>Bienvenue sur URIDE Web 🚗</h1>
+      <p style={{ fontSize: "18px", marginTop: "10px" }}>
+        La plateforme moderne pour la mobilité et les services en ligne.
+      </p>
+      <p style={{ marginTop: "20px", color: "gray" }}>
+        Déployé avec ❤️ par <strong>Djems Kwembe</strong>
+      </p>
+    </main>
+  );
+}
+
 import Image from "next/image";
 
 export default function Home() {
